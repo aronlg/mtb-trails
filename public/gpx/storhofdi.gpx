@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx creator="Wikiloc - https://www.wikiloc.com" version="1.1" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata>
+    <name>Wikiloc - Stórhöfði</name>
+    <link href="https://www.wikiloc.com/mountain-biking-trails/hafnarfjordur-45029103">
+      <text>Stórhöfði on Wikiloc</text>
+    </link>
+    <time>2020-01-01T17:44:47Z</time>
+  </metadata>
+  <trk>
+    <name>Stórhöfði</name>
+    <cmt></cmt>
+    <desc></desc>
+    <trkseg>
+      <trkpt lat="64.031947" lon="-21.932480">
+        <ele>100.668</ele>
+        <time>2020-01-01T16:24:50Z</time>
+      </trkpt>
+      <trkpt lat="64.031915" lon="-21.933493">
+        <ele>100.642</ele>
+        <time>2020-01-01T16:27:01Z</time>
+      </trkpt>
+      <trkpt lat="64.031269" lon="-21.937253">
+        <ele>102.826</ele>
+        <time>2020-01-01T16:29:47Z</time>
+      </trkpt>
+      <trkpt lat="64.031021" lon="-21.939733">
+        <ele>101.208</ele>
+        <time>2020-01-01T16:31:30Z</time>
+      </trkpt>
+      <trkpt lat="64.030707" lon="-21.940963">
+        <ele>102.080</ele>
+        <time>2020-01-01T16:32:40Z</time>
+      </trkpt>
+      <trkpt lat="64.030340" lon="-21.941625">
+        <ele>101.271</ele>
+        <time>2020-01-01T16:33:39Z</time>
+      </trkpt>
+      <trkpt lat="64.029849" lon="-21.941938">
+        <ele>105.956</ele>
+        <time>2020-01-01T16:36:23Z</time>
+      </trkpt>
+      <trkpt lat="64.029249" lon="-21.942147">
+        <ele>111.578</ele>
+        <time>2020-01-01T16:37:48Z</time>
+      </trkpt>
+      <trkpt lat="64.029022" lon="-21.941980">
+        <ele>113.465</ele>
+        <time>2020-01-01T16:39:10Z</time>
+      </trkpt>
+      <trkpt lat="64.028485" lon="-21.942063">
+        <ele>115.077</ele>
+        <time>2020-01-01T16:44:23Z</time>
+      </trkpt>
+      <trkpt lat="64.028032" lon="-21.941801">
+        <ele>115.896</ele>
+        <time>2020-01-01T16:45:18Z</time>
+      </trkpt>
+      <trkpt lat="64.027402" lon="-21.941105">
+        <ele>116.659</ele>
+        <time>2020-01-01T16:50:31Z</time>
+      </trkpt>
+      <trkpt lat="64.027210" lon="-21.940124">
+        <ele>117.538</ele>
+        <time>2020-01-01T16:51:24Z</time>
+      </trkpt>
+      <trkpt lat="64.026752" lon="-21.938885">
+        <ele>115.270</ele>
+        <time>2020-01-01T16:52:57Z</time>
+      </trkpt>
+      <trkpt lat="64.026136" lon="-21.937593">
+        <ele>116.117</ele>
+        <time>2020-01-01T16:54:49Z</time>
+      </trkpt>
+      <trkpt lat="64.025668" lon="-21.937105">
+        <ele>116.208</ele>
+        <time>2020-01-01T16:56:09Z</time>
+      </trkpt>
+      <trkpt lat="64.025396" lon="-21.936478">
+        <ele>116.877</ele>
+        <time>2020-01-01T16:56:52Z</time>
+      </trkpt>
+      <trkpt lat="64.024449" lon="-21.936131">
+        <ele>120.858</ele>
+        <time>2020-01-01T16:58:43Z</time>
+      </trkpt>
+      <trkpt lat="64.023846" lon="-21.935532">
+        <ele>121.553</ele>
+        <time>2020-01-01T16:59:58Z</time>
+      </trkpt>
+      <trkpt lat="64.023421" lon="-21.933710">
+        <ele>124.195</ele>
+        <time>2020-01-01T17:01:38Z</time>
+      </trkpt>
+      <trkpt lat="64.023843" lon="-21.932033">
+        <ele>128.242</ele>
+        <time>2020-01-01T17:03:20Z</time>
+      </trkpt>
+      <trkpt lat="64.024211" lon="-21.927156">
+        <ele>133.374</ele>
+        <time>2020-01-01T17:07:34Z</time>
+      </trkpt>
+      <trkpt lat="64.025027" lon="-21.924280">
+        <ele>133.073</ele>
+        <time>2020-01-01T17:10:16Z</time>
+      </trkpt>
+      <trkpt lat="64.024996" lon="-21.920931">
+        <ele>131.816</ele>
+        <time>2020-01-01T17:13:23Z</time>
+      </trkpt>
+      <trkpt lat="64.025634" lon="-21.919998">
+        <ele>138.275</ele>
+        <time>2020-01-01T17:16:37Z</time>
+      </trkpt>
+      <trkpt lat="64.026058" lon="-21.918792">
+        <ele>140.228</ele>
+        <time>2020-01-01T17:17:53Z</time>
+      </trkpt>
+      <trkpt lat="64.026735" lon="-21.918022">
+        <ele>144.120</ele>
+        <time>2020-01-01T17:19:28Z</time>
+      </trkpt>
+      <trkpt lat="64.026920" lon="-21.918034">
+        <ele>143.608</ele>
+        <time>2020-01-01T17:19:53Z</time>
+      </trkpt>
+      <trkpt lat="64.027063" lon="-21.918283">
+        <ele>144.231</ele>
+        <time>2020-01-01T17:20:46Z</time>
+      </trkpt>
+      <trkpt lat="64.026976" lon="-21.918173">
+        <ele>147.362</ele>
+        <time>2020-01-01T17:21:11Z</time>
+      </trkpt>
+      <trkpt lat="64.026899" lon="-21.918670">
+        <ele>147.727</ele>
+        <time>2020-01-01T17:21:50Z</time>
+      </trkpt>
+      <trkpt lat="64.027152" lon="-21.920864">
+        <ele>134.889</ele>
+        <time>2020-01-01T17:24:25Z</time>
+      </trkpt>
+      <trkpt lat="64.028270" lon="-21.924920">
+        <ele>116.426</ele>
+        <time>2020-01-01T17:28:54Z</time>
+      </trkpt>
+      <trkpt lat="64.028644" lon="-21.927483">
+        <ele>106.678</ele>
+        <time>2020-01-01T17:31:19Z</time>
+      </trkpt>
+      <trkpt lat="64.029661" lon="-21.929486">
+        <ele>103.187</ele>
+        <time>2020-01-01T17:33:46Z</time>
+      </trkpt>
+      <trkpt lat="64.030223" lon="-21.929874">
+        <ele>104.430</ele>
+        <time>2020-01-01T17:34:43Z</time>
+      </trkpt>
+      <trkpt lat="64.030475" lon="-21.930631">
+        <ele>104.688</ele>
+        <time>2020-01-01T17:35:31Z</time>
+      </trkpt>
+      <trkpt lat="64.030884" lon="-21.930864">
+        <ele>108.924</ele>
+        <time>2020-01-01T17:37:20Z</time>
+      </trkpt>
+      <trkpt lat="64.030984" lon="-21.931781">
+        <ele>113.826</ele>
+        <time>2020-01-01T17:38:06Z</time>
+      </trkpt>
+      <trkpt lat="64.032006" lon="-21.932123">
+        <ele>99.908</ele>
+        <time>2020-01-01T17:39:56Z</time>
+      </trkpt>
+      <trkpt lat="64.032127" lon="-21.931896">
+        <ele>100.592</ele>
+        <time>2020-01-01T17:40:23Z</time>
+      </trkpt>
+      <trkpt lat="64.032147" lon="-21.932102">
+        <ele>101.243</ele>
+        <time>2020-01-01T17:43:53Z</time>
+      </trkpt>
+      <trkpt lat="64.032135" lon="-21.931905">
+        <ele>99.778</ele>
+        <time>2020-01-01T17:44:47Z</time>
+      </trkpt>
+    </trkseg>
+  </trk></gpx>
