@@ -1,45 +1,49 @@
-import React, { Fragment, useState } from 'react'
-import { useTheme } from '@nextui-org/react'
-import Mapbox, { Source, Layer, Marker } from 'react-map-gl'
+import { Fragment, useState, useCallback, useRef } from 'react'
+// import { Tooltip } from '@nextui-org/react'
+import Mapbox, {
+  NavigationControl,
+  GeolocateControl,
+  Source,
+  Layer,
+  Marker,
+} from 'react-map-gl'
 import Image from 'next/image'
-import { Trails, Rating } from '../types'
+import { colorByDifficulty } from '../helpers'
+import { TrailsType } from '../types'
 
 interface Props {
-  trails: Trails
+  trails: TrailsType
+  latitude?: number
+  longitude?: number
 }
 
-const Map = ({ trails }: Props) => {
-  const { theme } = useTheme()
+const lat = 64.128288
+const lng = -21.827774
+const zoom = 8
 
-  // const [showPopup, setShowPopup] = useState(false)
+const Map = ({ trails, latitude = lat, longitude = lng }: Props) => {
+  // const map = useRef()
   const [viewport, setViewport] = useState({
-    latitude: 64.128288,
-    longitude: -21.827774,
-    zoom: 8,
+    latitude,
+    longitude,
+    zoom,
   })
 
-  const getColor = (rating: number | undefined) => {
-    switch (rating) {
-      case 1:
-        return theme?.colors.green500.value
-      case 2:
-        return theme?.colors.blue500.value
-      case 3:
-        return theme?.colors.red500.value
-      case 4:
-        return theme?.colors.black.value
-      default:
-        return theme?.colors.green500.value
-    }
-  }
+  // const onLoad = () => {
+  //   console.log(map)
+  // }
 
   return (
     <Mapbox
+      // ref={map}
       mapStyle="mapbox://styles/mapbox/streets-v11"
       mapboxAccessToken={process.env.MAPBOX_TOKEN}
       {...viewport}
       onMove={(evt) => setViewport(evt.viewState)}
+      // onLoad={onLoad}
     >
+      <NavigationControl />
+      <GeolocateControl />
       {trails.map((trail) => {
         const {
           slug,
@@ -75,7 +79,7 @@ const Map = ({ trails }: Props) => {
                   'line-cap': 'round',
                 }}
                 paint={{
-                  'line-color': getColor(rating),
+                  'line-color': colorByDifficulty(rating),
                   'line-width': 4,
                 }}
               />
