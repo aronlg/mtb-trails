@@ -18,6 +18,7 @@ const TrailPage: NextPage<Props> = ({ trail }: Props) => {
       <Text h1>{name}</Text>
       <Text size={20}>{description}</Text>
       <Spacer y={2} />
+      {/* @ts-ignore */}
       <Elevation coordinates={gpxGeoJson.features[0].geometry.coordinates} />
     </>
   )
