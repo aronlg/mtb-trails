@@ -12,8 +12,8 @@ export interface TrailType {
   slug: string
   distance: number
   elevation: number
-  geoJson: GeoJSON.FeatureCollection
-  gpxGeoJson: GeoJSON.FeatureCollection
+  geoJson: GeoJSON.FeatureCollection<GeoJSON.Geometry>
+  gpxGeoJson: GeoJSON.FeatureCollection<GeoJSON.Geometry>
   rating?: Rating
   description?: string
   location?: string
