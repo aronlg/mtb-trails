@@ -1,5 +1,7 @@
 import type { NextPage, GetStaticProps, GetStaticPaths } from 'next'
+import Link from 'next/link'
 import { Text, Spacer } from '@nextui-org/react'
+import { HiArrowNarrowLeft } from 'react-icons/hi'
 import { TrailsType, TrailType } from '../../types'
 import Elevation from '../../components/Elevation'
 
@@ -15,6 +17,10 @@ const TrailPage: NextPage<Props> = ({ trail }: Props) => {
 
   return (
     <>
+      <Link href="/trails">
+        <HiArrowNarrowLeft size={30} cursor="pointer" />
+      </Link>
+      <Spacer y={1} />
       <Text h1>{name}</Text>
       <Text size={20}>{description}</Text>
       <Spacer y={2} />
